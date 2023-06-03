@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/whats.css">
+  <link rel="stylesheet" href="css/whats2.css">
+  <!-- <link rel="stylesheet" href="css/reset.css"> -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <title>Tienda de Maquillaje Chick Girls</i></title>
+  <link rel="icon" href="/img/icono.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<!--Pop up de whatsapp-->
+<body>
+  <div class="nav-bottom">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+     <div class="popup-whatsapp fadeIn">
+         <div class="content-whatsapp -top"><button type="button" class="closePopup">
+               <i class="material-icons icon-font-color">close</i>
+             </button> 
+           
+            <p>  <img src="img/secretary.png" width="50">  Hola, ¿Deseas adquirir algun producto? </p>
+            
+         </div>
+         <div class="content-whatsapp -bottom">
+           <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+
+   
+             <button class="send-msPopup" id="send-btn" type="button">
+                 <i class="material-icons icon-font-color--black">send</i>
+             </button>
+
+         </div>
+     </div>
+     <button type="button" id="whats-openPopup" class="whatsapp-button">
+         <div class="float" >
+          <i class="fa fa-whatsapp my-float"></i></div>
+     </button>
+     <div class="circle-anime"></div>
+ </div>
+ <script  src="/js/script2.js"></script>
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!--Menu principal-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-purple fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Tienda de Belleza</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#Home"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosotros"><i class="fas fa-users"></i> Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto"><i class="fas fa-envelope"></i> Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html"><i class="fas fa-tags"></i> Registro</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!--Aqui va el carrusel del Header-->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicadores -->
+      <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+      </ol>
+
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Img/producto1.jpg" class="d-block w-100" alt="Slide 0">
+        </div>
+        <div class="carousel-item">
+          <img src="./Img/producto2.jpg" class="d-block w-100" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="./Img/producto3.jpg" class="d-block w-100" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img src="./Img/producto4.jpg" class="d-block w-100" alt="Slide 3">
+        </div>
+      </div>
+
+      <!-- Controles de navegación -->
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </a>
+    </div>
+
+  </header>
+  <main>
+    <!--Aqui va el Home con su galeria de imagenes-->
+    <section id="Home">
+      <h2>Nuestro catálogo - perfumes</h2>
+      <hr>
+      <h5><p>¡Descubre los aromas más irresistibles en nuestros catálogos de perfumes! Explora una amplia selección de fragancias exquisitas y encuentra tu aroma perfecto. Además, aprovecha nuestras promociones especiales y descuentos exclusivos. Sumérgete en el mundo de los perfumes y déjate seducir por sus notas cautivadoras. ¡Tu esencia única merece ser celebrada! </p></h5>
+    
+      <div class="gallery">
+        <a target="_blank" href="img_5terre.jpg">
+          <img src="/img/perfume5.jpeg" alt="Cinque Terre">
+        </a>
+        <div class="desc">Aroma atrapante, 55 en stock</div>
+      </div>
+    
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="/img/perfume6.jpeg" alt="Forest">
+        </a>
+        <div class="desc">Regalo maravilloso, 30 en stock</div>
+      </div>
+    
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="/img/perfume7.jpeg" alt="Forest">
+        </a>
+        <div class="desc">Aroma maravilloso, 30 en stock</div>
+      </div>
+    
+      <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img src="/img/perfume8.jpeg" alt="Mountains">
+        </a>
+        <div class="desc">Aroma embriagante, 13 en stock</div>
+      </div>
+    
+      <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img src="/img/perfume9.jpeg" alt="Mountains">
+        </a>
+        <div class="desc">Combinación ganadora, 19 en stock</div>
+      </div>
+    
+      <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img src="/img/perfume10.jpeg" alt="Mountains">
+        </a>
+        <div class="desc">Aroma envolvente, 22 en stock</div>
+      </div>
+    </section>
+    
+
+    <hr>
+    <!--Seccion de Aliados con un carrusel-->
+    <section id="catalogo">
+      <h2>Nuestro catalogo - Aliados estrella</h2>
+      <hr>
+      <h5><p>Nuestro catalogo varia entre maquillaje, perfumes, skincare y otros mas, pero, no seriamos tan grandes sin el apoyo de algunos de nuestros mas grandes aliados</p></h5>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/producto5.jpg" alt="Imagen 1">
+            <div class="carousel-caption">
+              <h3>CoverGirl</h3>
+              <p>Pinceles</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/img/producto6.jpg" alt="Imagen 2">
+            <div class="carousel-caption">
+              <h3>L'Oréal Paris</h3>
+              <p>Labiales</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/img/producto7.jpg" alt="Imagen 3">
+            <div class="carousel-caption">
+              <h3>Victorias Secret</h3>
+              <p>Labiales</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    
+      <!-- Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    </section>
+ 
+
+        <section id="nosotros">
+          <h2>Nosotros</h2>
+          <hr>
+          <h5><p>Conoce al equipo detras de esta fantastica compañia, creamos los mejores cosmeticos para mantener tu piel bella y radiante</p></h5>
+    
+          <div class="Gallery">
+                <div class="container">
+                <img id="img1" src="./img/Team/Foto4.jpg" >
+                <h5 class="letter">Angie Duque</h5>
+                <p>Desarrolladora Backend</p>
+                </div>
+                <div class="container">
+                <img id="img2" src="./img/Team/Foto3.jpeg" >
+                <h5 class="letter">Cristofer Homen</h5>
+                <p>Desarrollador Frontend</p>
+                </div>
+                <div class="container">
+                <img id="img3" src="./img/Team/Foto2.jpeg" >
+                <h5 class="letter">Diana Ostios</h5>
+                <p>Desarrolladora Frontend</p>
+                </div>
+                <div class="container">
+                <img id="img4" src="./img/Team/Foto1.jpg" >
+                <h5 class="letter">Maria Teresa Figuera</h5>
+                <p>Desarrolladora Backend</p>
+                </div>
+          </div>
+    
+        </section>
+          
+        <!-- Sección de Contacto -->
+<!-- Sección de Contacto -->
+<section id="contacto" class="container py-5">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="display-4">Contacto</h2>
+      <p>Puedes ponerte en contacto con nosotros mediante el siguiente formulario o utilizando la información de
+        contacto a continuación:</p>
+      <ul>
+        <li><i class="fas fa-map-marker-alt"></i> Dirección: Calle 123, Ciudad, País</li>
+        <li><i class="fas fa-phone"></i> Teléfono: 123-456-7890</li>
+        <li><i class="fas fa-envelope"></i> Correo electrónico: info@example.com</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <form action="#" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary" style="width: 150px; font-size: 18px;">Enviar</button>
+
+        </div>
+      </form>
+      <!-- <button type="submit" class="btn btn-primary" style="width: 150px; font-size: 18px;">Enviar</button> -->
+
+    </div>
+  </div>
+</section>
+
+
+
+        <footer>
+          <div class="footer-video-overlay"></div>
+          <video autoplay loop muted class="footer-video-background">
+            <source src="video/backv4.mp4" type="video/mp4">
+          </video>
+          <div class="footer-content">
+            <div class="social-icons">
+              <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>&copy; 2023 Tienda de belleza. Todos los derechos reservados.</p>
+          </div>
+        </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      // Agregar un desplazamiento suave a todos los enlaces en el menú de navegación
+      $("a.nav-link").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+  
+          // Obtener el hash del enlace clicado
+          var hash = this.hash;
+  
+          // Animar el desplazamiento
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function() {
+            // Agregar el hash al URL después de la animación
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Agregar clase activa al hacer clic en una opción de menú
+      $('.menu-option').on('click', function() {
+        // Remover la clase activa de todas las opciones de menú
+        $('.menu-option').removeClass('active');
+        
+        // Agregar la clase activa solo a la opción de menú seleccionada
+        $(this).addClass('active');
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Agregar clase activa al hacer clic en una opción de menú
+      $('.nav-link').on('click', function() {
+        // Remover la clase activa de todas las opciones de menú
+        $('.nav-link').removeClass('active');
+        
+        // Agregar la clase activa solo a la opción de menú seleccionada
+        $(this).addClass('active');
+      });
+    });
+  </script>
+  
+  
+</body>
+
+</html>
